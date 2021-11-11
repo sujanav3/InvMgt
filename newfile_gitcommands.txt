@@ -1,0 +1,43 @@
+Login to github. https://github.com/sujanav3  sujanav3/SujanaGithub1
+From home page click on + icon and select  Import Repository
+Enter this URL to import an exisitng code.
+Your old repository’s clone URL: https://github.com/spbang2018/ ContosoAirupdated.git
+Enter Repo name :Ex:InvManagement".Click on begin import
+Project code will be imported to the repository "InvManagement"
+
+To get Access token: Click on userid Profile icon.Select Settings. Then select Developer settings. click on Personal access tokens.click on Generate token. This is my token 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
+
+To communicate with git hub server we need GitBash
+Open GitBash.
+Navigate to the directory 'GitPractice'
+Git config user name, email id
+Git init  - It will initialize empty repo in your local system
+Git Remote Add Origin - to establish connection to the remote repository server
+git remote add origin https://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@github.com/sujanav3/InvMgt.git
+
+from git hub server, open the repository.click on code.copy the Https URL
+git clone  https://github.com/sujanav3/InvMgt.git this will copy the code first time from server to local repo
+Under the folder GitPractice a folder InvMgt will be created.now code is avialble in your workstation under the folder InvMgt.make any changes that you want to make to the code
+Note: 1.Git clone(first time when code code is not present in your local system then do clone)
+   or 2.Git pull(code exists in local workstation.to get updated code from server ues this pull)
+Change the directory to InvMgt
+git commit -am "updated comments in server.js"  this will Update the changes from your work station to local repository (not to the server repository)
+git push origin master - updated code will be pushed to remote server repository
+
+At the time of push it will ask you to enter(signin) Token.
+
+Next time onwards to get the code from server no need to do Git Clone. Do Git pull
+
+-------------
+git remote add origin https://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@github.com/sujanav3/InvMgt.git
+git clone  https://github.com/sujanav3/InvMgt.git 
+git commit -am "Practice updated comments in server.js"
+git log -- follow server.js
+git tag 7f2861543df1d06a87509992954d405c579d0b66 
+git push origin master
+
+
+
+Question
+1.Git clone should be run at directory where invMgt is present
+git pull should be run at invMgt? not at the directoy above it. correct??
