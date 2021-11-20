@@ -1,9 +1,4 @@
-Login to github. https://github.com/sujanav3  sujanav3/SujanaGithub1
-From home page click on + icon and select  Import Repository
-Enter this URL to import an exisitng code.
-Your old repository’s clone URL: https://github.com/spbang2018/ ContosoAirupdated.git
-Enter Repo name :Ex:InvManagement".Click on begin import
-Project code will be imported to the repository "InvManagement"
+edit dev branch
 
 To get Access token: Click on userid Profile icon.Select Settings. Then select Developer settings. click on Personal access tokens.click on Generate token. This is my token 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
 
